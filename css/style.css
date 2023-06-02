@@ -1,0 +1,93 @@
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box; /* cualquier tamaño de padding y border será restado del elemento para mantener el width y height*/
+}
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #222;
+    width: 100%;
+    padding: 10px 20px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top > ul  {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #f3f3f3;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 240px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e5e5e5;
+    padding: 20px 40px;
+}
+main > div {
+    width: 490px;
+    height: 350px;
+    align-items: center;
+}
+
+.block-1 {
+    background-image: url('../img/delivery.png');
+}
+.block-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    justify-content: space-around;
+
+}
+
+.block-2 > div {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+h2 {
+    padding: 10px 15px;
+    color: #FC200C;
+}
+span {
+    color: #f3f3f3;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #222;
+    
+}
+
+ul {
+    list-style-type: none;
+}
+
+#name {
+    width: 50%;
+}
